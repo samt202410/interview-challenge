@@ -1,0 +1,91 @@
+/*ordered as ppage*/
+
+/* heading */
+
+.header {
+    margin-top: 30px;
+    text-align: center; /* Center the text horizontally */
+    font-size: 22px; /* Set the font size to 22px */
+    font-weight: 700; /* Set the font weight to 700 (bold) */
+    margin-bottom: 30px;
+}
+
+
+/** Product image **/
+
+
+.product-image {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+
+/**  Style for the amount **/
+
+.amount {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+/** Style for the shipping text **/
+
+.shipping {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+
+/** Product description **/
+
+.product-description {
+    display: inline-block;
+    margin-left: 100px;
+   
+}
+
+
+/** Actual description  **/
+
+.actual-description {
+    margin-left: 250px;
+    display: inline-block;
+}
+
+
+/** Product details **/
+
+.product-details {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+/** Button  **/
+
+.add-to-cart {
+    text-align: center; /* Center the button horizontally */
+}
+
+
+/** Style for the button **/
+
+.add-to-cart button {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/** Hover effect */
+
+.add-to-cart button:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
